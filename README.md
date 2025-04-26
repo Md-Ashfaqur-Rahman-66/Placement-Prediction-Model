@@ -11,17 +11,12 @@ This project aims to predict placements using machine learning. The following fi
 3. **`placement.csv` (CSV File)**  
    This **CSV file** contains the dataset used for training the machine learning model. It includes various features (such as CGPA, IQ) and the target variable (placement status).
 
-## How to Use:
-1. Load the dataset from `placement.csv` for training the model.
-2. Use the Jupyter Notebook `Placement Prediction Model.ipynb` to run the code for training the model.
-3. Once trained, you can load the saved model from `model.pkl` and use it for making predictions.
-
 ## Requirements:
 - Python 3.x
 - Libraries: `pandas`, `scikit-learn`, `pickle`, `matplotlib`, etc.
 
 
-## Steps in this Project
+## Steps used in this Project
 
 1. **Preprocess Data + EDA + Feature Selection**  
    - Perform data preprocessing, exploratory data analysis (EDA), and feature selection.
