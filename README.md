@@ -1,3 +1,26 @@
+# Placement Prediction Model
+
+This project aims to predict placements using machine learning. The following files are part of the project:
+
+1. **`model.pkl` (PKL File)**  
+   This file contains a **serialized machine learning model** saved using `pickle`. It holds the trained model which can be loaded later for making predictions without the need for retraining.
+
+2. **`Placement Prediction Model.ipynb` (IPYNB File)**  
+   This is a **Jupyter Notebook** that contains the code for building, training, and testing the machine learning model. It includes steps like data preprocessing, feature selection, model training, and evaluation.
+
+3. **`placement.csv` (CSV File)**  
+   This **CSV file** contains the dataset used for training the machine learning model. It includes various features (such as CGPA, IQ) and the target variable (placement status).
+
+## How to Use:
+1. Load the dataset from `placement.csv` for training the model.
+2. Use the Jupyter Notebook `Placement Prediction Model.ipynb` to run the code for training the model.
+3. Once trained, you can load the saved model from `model.pkl` and use it for making predictions.
+
+## Requirements:
+- Python 3.x
+- Libraries: `pandas`, `scikit-learn`, `pickle`, `matplotlib`, etc.
+
+
 ## Steps in this Project
 
 1. **Preprocess Data + EDA + Feature Selection**  
